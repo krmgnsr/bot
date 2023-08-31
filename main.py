@@ -19,7 +19,7 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send("Hi!")
     elif message.content.startswith('$password'):
-        password = message.content[9:].strip
+        password = message.content[9:].strip()
         await message.channel.send(sifre_uret(password))
     elif message.content.startswith('$bye'):
         await message.channel.send(":wink:")
