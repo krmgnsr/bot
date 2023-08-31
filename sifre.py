@@ -1,6 +1,5 @@
 import random
 
-password = message.content[9:].strip
 
 def sifre_uret(password):
     karakter = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
